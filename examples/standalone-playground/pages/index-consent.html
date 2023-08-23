@@ -18,6 +18,12 @@
     <button>Load</button>
   </form>
 
+  <script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js" type="text/javascript"
+    data-domain-script="80ca7b5c-e72f-4bd0-972a-b74d052a0820-test"></script>
+  <script
+    src="/node_modules/@segment/analytics-consent-wrapper-onetrust/dist/umd/analytics-onetrust.umd.development.js">
+    </script>
+
   <script>
     const { searchParams } = new URL(document.location);
     const writeKey = searchParams.get("writeKey");
@@ -90,6 +96,7 @@
       })()
     }
   </script>
+
 </head>
 
 <body>
