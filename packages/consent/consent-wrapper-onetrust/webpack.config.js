@@ -18,8 +18,6 @@ module.exports = merge(common, {
   output: {
     filename: isProd ? '[name].js' : '[name].development.js',
     path: path.resolve(__dirname, 'dist/umd'),
-    chunkFilename: isProd
-      ? '[name].[contenthash].js'
-      : '[name].[contenthash].development.js',
+    chunkFilename: isProd ? '[name].[contenthash].js' : '[name].development.js',
   },
 })
