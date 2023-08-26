@@ -31,7 +31,8 @@
     "tsc": "yarn run -T tsc",
     "eslint": "yarn run -T eslint",
     "concurrently": "yarn run -T concurrently",
-    "jest": "yarn run -T jest"
+    "jest": "yarn run -T jest",
+    "umd": "webpack"
   },
   "dependencies": {
     "@lukeed/uuid": "^2.0.0",
@@ -43,7 +44,9 @@
   "devDependencies": {
     "@internal/config": "0.0.0",
     "@types/node": "^16",
-    "axios": "^1.4.0"
+    "axios": "^1.4.0",
+    "webpack": "^5.76.0",
+    "webpack-cli": "^4.8.0"
   },
   "packageManager": "yarn@3.4.1"
 }

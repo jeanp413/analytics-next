@@ -1933,6 +1933,8 @@ __metadata:
     buffer: ^6.0.3
     node-fetch: ^2.6.7
     tslib: ^2.4.1
+    webpack: ^5.76.0
+    webpack-cli: ^4.8.0
   languageName: unknown
   linkType: soft
 
